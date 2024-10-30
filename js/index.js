@@ -1,0 +1,1 @@
+const halloweenButton = document.getElementById("halloween-btn")

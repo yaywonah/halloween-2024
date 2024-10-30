@@ -1,73 +1,65 @@
-body {
-    background-color: lightgray;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-optical-sizing: auto;
+}
+
+body {
+    background-color: #581845;
+    text-align: center;
+    color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
+img {
+    width: 40%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #282625;
+    padding: 5px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
 
 h1 {
-    color: darkslateblue;
-    text-align: center;
-    background-color: orange;
+    padding: 10px;
+    font-family: 'Nosifer', sans-serif;
 }
 
-/* .header-nav {
-    display: flex;
-    justify-content: center;
-} */
+button {
+    margin: 20px;
+    background-color: #ff5530;
+    padding: 10px;
+    border-radius: 3px;
+    border-style: none;
+    width: 50%;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
 
-header img {
-    width: 90%;
-    margin: 10px;
-    border-radius: 20px;
+.trick {
+    font-family: "Eater", serif;
+    font-size: 16px;
+}
+
+.treat {
+    font-family: 'Emilys Candy', serif;
+    font-size: 16px;
 }
 
 p {
-    background-color: green;
-    font-size: 20px;
-}
-
-nav {
-    background-color: black;
-    text-align: center;
-    width: 75%;
-    font-size: 22px;
-    width: 100%;
-    height: 70%;
-}
-
-nav ul {
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    list-style-type: none;
-    background-color: pink;
-}
-
-nav ul li {
-    background-color: orange;
-    padding: 10px;
-    margin: 25px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    background-color: rgb(174, 112, 112);
-}
-
-@media (min-width:1200px) {
-    .header-nav {
-        display: flex;
-        justify-content: center;
-    }
-
-    header img {
-        width: 50%;
-        margin: 10px;
-    }
+    font-family: 'Nosifer', sans-serif;
+    letter-spacing: 0.2em;
 }
